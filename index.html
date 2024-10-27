@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Eso's Portfolio</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+        Eso <span>Dike</span>
+      </div>
+    <div class="links">
+      <!-- <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"> <a href="#">Home</a></div> -->
+      <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"> <a href="#">About</a></div>
+      <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"> <a href="#portfolio">Portfolio</a></div>
+      <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"> <a href="#gallery">Gallery</a></div>
+      <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> <a href="#contact">Contact</a></div>
+    </div>
+    <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+</div>
+  <div class="dropdown">
+    <div class="links">
+      <!-- <a href="#">Home</a> -->
+      <a href="#">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+    </div>
+  </div>
+</nav>
+<section>
+  <div class="main-container">
+    <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+      <img src="eso image-Photoroom.png" alt="">
+    </div>
+    <div class="content">
+      <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Meet <span>Eso</span></h1>
+      <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm <span class="typewriter-text"></span><label for="">|</label></div>
+      <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam officia perspiciatis magni eius, natus officiis fugit! Rerum, animi error!</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/eso.dike/?hl=en" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@esodike" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCKwrLHu5h9ypXn0RwIwVHCQ" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+        <button>Hire me</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio">
+          <div class="portfolio-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <h3>Movie Title 1</h3>
+          </div>
+          <div class="portfolio-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            <!-- <a href="https://www.youtube.com/embed/dBPDa9YEU5A?si=yjYv-wC62txt5s-L&amp;controls=0"  target="_blank" style="position: relative; display: inline-block;">
+              <img src="we" alt="Video Thumbnail" style="width: 560px; height: 315px;"/>
+              <img src="button.png" alt="Play Button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px;"/>
+          </a> -->
+              <h3>Movie Title 2</h3>
+          </div>
+          <div class="portfolio-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+              <h3>Movie Title 3</h3>
+          </div>
+          <div class="portfolio-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+              <h3>Movie Title 4</h3>
+          </div>
+          <div class="portfolio-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+              <h3>Movie Title 5</h3>
+          </div>
+          <!-- Hidden item -->
+          <div class="portfolio-item hidden"> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            <h3>Movie Title 6</h3>
+         </div>
+      </div>
+           <!-- View More Button -->
+          <div class="view-more-container-portfolio">
+            <button id="view-more-portfolio-btn">View More</button>
+         </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="eso image.jpeg"Gallery Image 1">
+        </div>
+        <div class="gallery item">
+          <img src="eso4.jpeg" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+          <img src="eso2.jpeg" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item">
+          <img src="eso5.jpeg" alt="Gallery Image 4">
+        </div> 
+        <!-- More hidden items for "View More" functionality -->
+        <div class="gallery-item hidden">
+        <img src="eso image-Photoroom.png" alt="Gallery Image 4">
+        </div>
+        <div class="gallery-item hidden">
+        <img src="eso7.jpeg" alt="Gallery Image 5">
+        </div>
+      </div>
+      <button id="view-more-btn" class="view-more-btn">View More</button>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<!-- <section id="contact" class="contact-section">
+  <div class="container">
+      <h2>Contact</h2>
+      <form action="submit_form.php" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+  </div>
+</section> -->
+
+<section id="contact" class="contact-section">
+<div class="container">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Send Message</button>
+    </form>
+</div>
+</section>
+
+<!-- Footer with Social Media Icons -->
+<footer>
+  <!-- <div class="social-media">
+      <a href="https://www.instagram.com/eso.dike/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@esodike" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.youtube.com/channel/UCKwrLHu5h9ypXn0RwIwVHCQ" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://twitter.com/esodike__?lang=en" target="_blank"><i class="fab fa-x"></i></a>
+      <a href="https://facebook.com/EsoDike" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div> -->
+  <p>&copy; 2024 Eso Dike. All Rights Reserved.</p>
+</footer>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0});
+</script>
+<script src="script.js"></script>
+</body>
+</html>
